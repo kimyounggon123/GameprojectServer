@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Packets">
+      <UniqueIdentifier>{18b0f52f-bbbf-44dc-ab21-7ef8937810a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Packets">
+      <UniqueIdentifier>{a5dec10d-ca8e-4a52-95e1-99f059b08937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Client">
+      <UniqueIdentifier>{946bfbf9-6686-4731-85ec-fe87dae2a35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Client">
+      <UniqueIdentifier>{c482460c-cdf5-4062-a051-e29cee836da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Server">
+      <UniqueIdentifier>{7b1c1faa-138a-4c2f-8f48-50a4178b97ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Server">
+      <UniqueIdentifier>{6c2e87f6-88d1-4e42-85d4-32dfc4f4854f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Others">
+      <UniqueIdentifier>{85265275-3e9e-48a3-a7d8-bfd755c498bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Others">
+      <UniqueIdentifier>{92798fe6-9958-4ee4-8c0d-693f7f785db1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PacketControllerclass.cpp">
+      <Filter>소스 파일\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketForBroadcast.cpp">
+      <Filter>소스 파일\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketProcessclass.cpp">
+      <Filter>소스 파일\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>소스 파일\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPclass.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="DBconnector.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="DBPKqueue.cpp">
+      <Filter>소스 파일\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketMessageclass.cpp">
+      <Filter>소스 파일\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMsgclass.cpp">
+      <Filter>소스 파일\Others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Packet.h">
+      <Filter>헤더 파일\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketControllerclass.h">
+      <Filter>헤더 파일\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketForBroadcast.h">
+      <Filter>헤더 파일\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketProcessclass.h">
+      <Filter>헤더 파일\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>헤더 파일\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPclass.h">
+      <Filter>헤더 파일\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerInfo.h">
+      <Filter>헤더 파일\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="DBconnector.h">
+      <Filter>헤더 파일\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="DBPKqueue.h">
+      <Filter>헤더 파일\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketMessageclass.h">
+      <Filter>헤더 파일\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorMsgclass.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Singletons.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionStruct.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="SOCKETINFO.h">
+      <Filter>헤더 파일\Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
