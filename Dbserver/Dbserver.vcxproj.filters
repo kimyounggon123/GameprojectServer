@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Server">
+      <UniqueIdentifier>{2f64f22d-40b3-4c3a-a145-166fe1872d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Server">
+      <UniqueIdentifier>{2988f6b6-d1ef-4a98-aa72-07eb2f1284b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Database">
+      <UniqueIdentifier>{0cb54960-2dfe-46ed-8212-58e1f31096b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Database">
+      <UniqueIdentifier>{33ff830f-fd4c-4c72-9c72-7eb394e0ce12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Packet">
+      <UniqueIdentifier>{c0a16f2e-7b07-4698-8d13-311f31d2e613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Packet">
+      <UniqueIdentifier>{d61e7786-e620-43d3-81c8-76dff80106db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBmanager.cpp">
+      <Filter>소스 파일\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoManager.cpp">
+      <Filter>소스 파일\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SignDBproc.cpp">
+      <Filter>소스 파일\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="PKprocsBunch.cpp">
+      <Filter>소스 파일\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="DBprocessServer.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBmanager.h">
+      <Filter>헤더 파일\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoManager.h">
+      <Filter>헤더 파일\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="SignDBproc.h">
+      <Filter>헤더 파일\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PKprocsBunch.h">
+      <Filter>헤더 파일\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="DBprocessServer.h">
+      <Filter>헤더 파일\Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
