@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\AboutUser">
+      <UniqueIdentifier>{31388586-bdee-45fc-b4f3-bf7d0021efd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AboutUser">
+      <UniqueIdentifier>{5b6139e7-89f0-46a7-9c92-ee1983042ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Others">
+      <UniqueIdentifier>{a502d356-f519-4a64-8ec9-e7bae472ff6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{e156e214-29e6-4647-9b9d-7a37c8fda98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Input">
+      <UniqueIdentifier>{f2e66b03-1e4c-49ca-b0aa-9d87f8d50c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AboutPacket">
+      <UniqueIdentifier>{a9387ba7-4796-43a7-b1d5-acc4b38be579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AboutPacket">
+      <UniqueIdentifier>{5bf16d3a-b8b4-4aef-b89b-1f5387bc0a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Agent">
+      <UniqueIdentifier>{912b56c0-342c-487a-9ec7-1a18bea44a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Agent">
+      <UniqueIdentifier>{b2db4754-237a-4475-9d0b-129530542878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Process">
+      <UniqueIdentifier>{dc7aa115-58a7-44a3-9a66-11036954b0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\AboutPacket\Process">
+      <UniqueIdentifier>{ca30a1eb-4dca-4c1a-8bcb-adae0ecdf464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Process">
+      <UniqueIdentifier>{4d9df869-efae-48af-8027-ac9f77976d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\AboutPacket\Process">
+      <UniqueIdentifier>{51426558-06bf-46a2-be30-ba4d4e413acc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일\AboutUser</Filter>
+    </ClCompile>
+    <ClCompile Include="UserList.cpp">
+      <Filter>소스 파일\AboutUser</Filter>
+    </ClCompile>
+    <ClCompile Include="InputKeyboard.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketMessageClass.cpp">
+      <Filter>소스 파일\AboutPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientAgent.cpp">
+      <Filter>소스 파일\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatAgent.cpp">
+      <Filter>소스 파일\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="SignClass.cpp">
+      <Filter>소스 파일\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessClass.cpp">
+      <Filter>소스 파일\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessAgent.cpp">
+      <Filter>소스 파일\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="AgentBunch.cpp">
+      <Filter>소스 파일\Agent</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketProcessList.cpp">
+      <Filter>소스 파일\AboutPacket\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketProcess.cpp">
+      <Filter>소스 파일\AboutPacket\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketSignProcess.cpp">
+      <Filter>소스 파일\AboutPacket\Process</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>헤더 파일\AboutUser</Filter>
+    </ClInclude>
+    <ClInclude Include="UserList.h">
+      <Filter>헤더 파일\AboutUser</Filter>
+    </ClInclude>
+    <ClInclude Include="HandlerGroup.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKeyboard.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketMessageClass.h">
+      <Filter>헤더 파일\AboutPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientAgent.h">
+      <Filter>헤더 파일\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatAgent.h">
+      <Filter>헤더 파일\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientInfo.h">
+      <Filter>헤더 파일\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="SignClass.h">
+      <Filter>헤더 파일\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessClass.h">
+      <Filter>헤더 파일\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessAgent.h">
+      <Filter>헤더 파일\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentBunch.h">
+      <Filter>헤더 파일\Agent</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketProcessList.h">
+      <Filter>헤더 파일\AboutPacket\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketProcess.h">
+      <Filter>헤더 파일\AboutPacket\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketSignProcess.h">
+      <Filter>헤더 파일\AboutPacket\Process</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
